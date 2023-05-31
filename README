@@ -1,0 +1,18 @@
+ Language: Português (Brazil)
+ 
+ Primeiramente, fiz esse sitezinho com o template e ajuda do canal: MTHS1901
+ Link do vídeo: https://www.youtube.com/watch?v=zxxB9SFh9p4&t
+ 
+ 
+Segundamente: Esse projeto se trata de uma brincadeira e mais de Aprimoração de estudos sobre desenvolvimento Web, encontra-se linguagem informal, anotações no meio do código apenas para fixação de novas funções e demais ferramentes que se usa pra programar, ESTE CÓDIGO SERVE PARA FINS PESSOAIS E DE ESTUDO 
+ 
+ Terceiramente: Lógica do código, a brincadeira se consiste em dar apenas a opção do botão "sim" funcionar, caso o usuário decida clickar no botão "não", os valores de bottom e left serão alterados, passando a impressão do botão "estar fugindo", e caso você consiga clicka-lo ele vai surtir do mesmo efeito de trocar a posição. Usando a função:
+
+function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+    
+Eu consigo gerar números aleatórios, esses quais eu uso de parâmetros para mudar a posição do botão, apenas adicionando um + "%" no final pra mudar em formato de porcentagem.
+
+Tamo junto pessoa que um dia leu isso!
+
+

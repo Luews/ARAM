@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="icon" href="./src/Rosa(1).png">
+    <title> ARAM? </title>
+</head>
+
+<body>
+
+    <!-- <img src="src/emoji_sapeca.png" alt="ARAM" class="emoji"> -->
+
+
+    <div id="conteudo">
+
+        <h2> Aceitas Ir ARAM Comigo?</h2>
+        <button class="btn" onclick="sim()">SIM</button>
+        <button class="btn" onmouseover="desviar(this)" onclick="desviar(this)">NÃO</button>
+    </div>
+
+    <style>
+        #conteudo {
+            background-color: #ee9797;
+            top: 0;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            margin: 0;
+            text-align: center;
+            font-family: courier,arial,helvetica;
+            /* gostei da fonte */
+        }
+
+        .btn{
+            border-radius: 15px;
+            border: none;
+            background-color: rgb(14, 13, 13);
+            color: white;
+            width: 100px;
+            height: 50px;
+        }
+
+        /* .emoji{
+           top: 70%;
+           left: 30%
+
+        } */
+    </style>
+
+    
+
+    <script>
+        function sim() {
+            alert("Você aceitou ir ARAM comigo, safada!")
+
+        }
+
+        function MudarPosicao(min,max) {
+        return (Math.random() * (max - min) + min)  + "%"; } 
+        
+        function desviar(t) {
+            var botao = t;
+            botao.style.position = "absolute"
+            botao.style.bottom = MudarPosicao(20,90);
+            botao.style.left = MudarPosicao(20,90);
+
+            // criando a variável botao e colocando um "this"
+            // como parâmetro lá em cima para linkarmos
+            // essa função eu peguei na internet, porém depois
+            // estudei a lógica e faz muito sentido
+            // para sortear um número aleatório com 2 parâmetros, um mínimo e um máximo
+            // do valor x até o valor y, que seria o máximo no caso
+            // depois de conseguirmos um valor aleatório, nós vamos passar esse número aleatório em forma de %
+            // com um "%" no final
+            // depois nós vamos falar que na função "desviar" vamos querer alterar o bottom e o left do elemento em %
+            // assim toda vez que passarmos o mouse ou clickarmos no botão, os valores de bottom e left vão ser alterados :D 
+
+
+        
+  
+        }
+    
+
+
+    </script>
+
+    
+
+</body>
+
+</html>
